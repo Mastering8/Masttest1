@@ -1,0 +1,13 @@
+{
+  "name": "crypto-tracker",
+  "version": "1.0.0",
+  "description": "Application de suivi de portefeuille crypto",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  }
+}
