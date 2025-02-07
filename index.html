@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivi Crypto Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Suivi Crypto Portfolio</h1>
+        <form id="transaction-form">
+            <input type="text" id="crypto" placeholder="Crypto (ex: bitcoin)" required>
+            <input type="number" id="amount" placeholder="Quantité" required>
+            <input type="number" id="price" placeholder="Prix d'achat/vente (USD)" required>
+            <select id="transaction-type">
+                <option value="achat">Achat</option>
+                <option value="vente">Vente</option>
+            </select>
+            <button type="submit">Ajouter Transaction</button>
+        </form>
+
+        <h2>Portefeuille</h2>
+        <div id="portfolio">
+            <!-- Affichage du portefeuille -->
+        </div>
+
+        <h2>Prix en Temps Réel</h2>
+        <div id="prices">
+            <!-- Affichage des prix des cryptos -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
